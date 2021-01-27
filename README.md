@@ -55,12 +55,12 @@ components are:
 
 <div>
   <a href="https://youtu.be/6oLUhuZL4ko?t=19">
-    <img src="https://github.com/wkentaro/morefusion/raw/gh-pages/assets/img/reconstruction1.gif" width="33%"/>
+    <img src="https://github.com/wkentaro/morefusion/raw/gh-pages/assets/img/reconstruction1.gif" width="30%"/>
   </a>
   <a href="https://youtu.be/6oLUhuZL4ko?t=65">
-    <img src="https://github.com/wkentaro/morefusion/raw/gh-pages/assets/img/reconstruction2.gif" width="33%"/>
+    <img src="https://github.com/wkentaro/morefusion/raw/gh-pages/assets/img/reconstruction2.gif" width="30%"/>
   </a>
-  <img src="https://github.com/wkentaro/morefusion/raw/gh-pages/assets/img/demonstration1.gif" width="33%"/>
+  <img src="https://github.com/wkentaro/morefusion/raw/gh-pages/assets/img/demonstration1.gif" width="30%"/>
 </div>
 
 ## Installation
@@ -123,7 +123,7 @@ ln -s src/ros/*.sh .
 ./catkin_build.robot_node.sh
 source devel/setup.bash
 
-rosrun franka_control_custom create_udev_rules.sh
+rosrun morefusion_panda create_udev_rules.sh
 ```
 
 ## Usage
